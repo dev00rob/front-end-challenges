@@ -6,7 +6,39 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Challenge #3</title>
-    <link href="css/main.css" rel="stylesheet">
+    <!--<link href="css/main.css" rel="stylesheet">-->
+    <style>
+        .wrapper {
+            display: flex;
+        }
+        .div1, .div2, .div3 {
+            color: white;
+        }
+        .div1 {
+            position: absolute;
+            background-color: #404040;
+            width: 67%;
+            height: 33%;
+            right: 0%;
+            bottom: 0%;
+        }
+        .div2, .div3 {
+            background-color: black;
+            width: 30%;
+            height: 67%;
+        }
+        .div2 {
+            position: absolute;
+            /*background-color: green;*/
+            top: 0%;
+            right: 0%;
+        }
+        .div3 {
+            position: absolute;
+            /*background-color: blue;*/
+            bottom: 0%;
+        }
+    </style>
     <script>
         // JAVASCRIPT
     </script>
@@ -15,7 +47,11 @@
 
     <!-- WRAPPER -->
     <div class="wrapper">
-
+        <div class="div1">
+            div 1
+            <div class="div2">div 2</div>
+            <div class="div3">div 3</div>
+        </div>
     </div>
     <!--// ENDS: WRAPPER -->
 
